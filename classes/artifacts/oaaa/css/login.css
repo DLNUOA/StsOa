@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background: #789 url("../img/main_bg2.jpg") no-repeat;
+    background-size: cover;
+}
+#main{
+    width: 350px;
+    height: 600px;
+    background: rgba(0,0,0,0.5) ;
+    margin: 40px auto;
+    border-top: 8px solid #0cc;
+    position: relative;
+}
+#header-pic{
+    margin: 50px auto;
+    width: 198px;
+    height: 198px;
+    background: url("../img/liudehua.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+
+}
+#account{
+    width: 75%;
+    margin: 0 auto;
+}
+#account .input{
+    height: 45px;
+    line-height: 45px;
+
+}
+#account .input input{
+    width: calc(100% - 10px);
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #0cc;
+    background: rgba(0,0,0,0.5) ;
+    padding: 0 5px;
+
+}
+.login-btn{
+    display: block;
+    width: 75%;
+    height: 40px;
+    margin: 30px auto;
+    border: none;
+    outline: none;
+    background-color: #00cccc;
+    color: white;
+    cursor: pointer;
+    position: relative;
+
+}
+.login-btn:active{
+    top: 2px;
+}
+
+#footer{
+    border-top: 1px solid #cccccc;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+#footer a{
+    color: #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
